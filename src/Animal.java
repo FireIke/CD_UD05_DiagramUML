@@ -17,6 +17,7 @@ public class Animal {
 
     //TODO: Completar agregar consulta al historial de consulta 
     public void agregarConsulta(Consulta consulta) {
+        historialConsultas.add(consulta);
     }
 
     // Getters y setters
